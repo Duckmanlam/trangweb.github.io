@@ -1,0 +1,601 @@
+header {
+    background-color: white;
+    width: 100%;
+}
+
+.body {
+    margin: 0px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.left {
+    width: 40%;
+    float: left;
+    padding-block: 16px;
+}
+
+.right {
+    background-color: white;
+    margin-left: auto;
+    float: right;
+    padding-block: 16px;
+}
+
+h1 {
+    color: red;
+}
+
+#menu {
+    list-style-type: none;
+}
+
+#menu li {
+    display: inline-block;
+    color: black;
+    size: 15px;
+}
+
+#menu li a {
+    color: black;
+    size: 15px;
+    padding: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 15px;
+    font-family: 'Sunflower', sans-serif;
+}
+
+#menu li a:hover {
+    color: blue;
+}
+
+#menu li a:active {
+    color: red;
+}
+
+
+/* fix  footer /*/
+
+.content {
+    width: 100%;
+    background: black;
+    margin-bottom: 0px;
+}
+
+footer {
+    width: 100%;
+}
+
+h1.textinfooter {
+    font-size: 14px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    color: gray;
+    font-family: 'Nunito', sans-serif;
+}
+
+.link {
+    text-align: center;
+    height: 19px;
+    width: 316px;
+    margin: auto;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.logocuoi {
+    text-align: center;
+    padding: 15px;
+}
+
+h1.diachi {
+    text-align: center;
+    font-size: 18px;
+    line-height: 18px;
+    padding-block: 36px;
+}
+
+h1.diachi {
+    color: gray;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.logocuoi>a {
+    padding: 10px;
+}
+
+.link a {
+    color: red;
+}
+
+
+/* fix div main */
+
+.heromain {
+    height: 986px;
+    width: 100%;
+    background-image: url("backgroundroom.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.freequote {
+    font-family: 'Sunflower', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 52px;
+}
+
+.enter {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    margin-top: -30px;
+}
+
+.inbackground {
+    height: auto;
+    width: 40%;
+    font-family: 'Sunflower', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 80px;
+}
+
+.inbackground>span {
+    color: red;
+}
+
+.login {
+    width: 459px;
+    height: 623px;
+    background-color: white;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+    margin-left: auto;
+}
+
+.minimain photo {
+    text-align: left;
+    width: 362px;
+}
+
+.submit {
+    color: red;
+}
+
+input[type="number"],
+input[type="text"] {
+    color: white;
+    width: 379px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: #E9E9EA;
+    border: 1px solid #D0D0D2;
+    ;
+}
+
+.minimain {
+    width: 100%;
+    height: 445px;
+    display: flex;
+}
+
+.togiay {
+    height: auto;
+    text-align: center;
+    margin: auto;
+    font-size: 17px;
+    line-height: 18px;
+    margin-left: 147px;
+}
+
+.Clock {
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
+    line-height: 18px;
+    height: auto;
+}
+
+.batogiay {
+    height: 372px;
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
+    line-height: 18px;
+    margin-right: 147px;
+    height: auto;
+}
+
+.seexamples {
+    width: 100%;
+    height: 298px;
+}
+
+.textinsee {
+    margin: auto;
+    font-size: 42px;
+    line-height: 42px;
+    font-family: 'Sunflower', sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.input[type="text"] {
+    padding: 36px;
+    height: 46px;
+}
+
+.hinhchon {
+    display: flex;
+    height: 175px;
+    margin-top: 36px;
+}
+
+.hainut {
+    display: flex;
+    width: 190px;
+    height: 38px;
+    box-sizing: border-box;
+    margin-left: 37px;
+    margin-top: 24px;
+}
+
+.hainut>input:first-child {
+    margin-right: 31px;
+    width: 190px;
+    height: 38px;
+}
+
+.hainut>input:last-child {
+    width: 190px;
+    height: 38px;
+}
+
+.submit {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 24px;
+    color: white;
+    margin-top: 51px;
+}
+
+.submit>A {
+    text-decoration: dotted;
+    font-size: 17px;
+    color: white;
+    font-family: 'Sunflower', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 24px;
+    background-color: #EC1C38;
+}
+
+.motnut {
+    width: 387px;
+    height: 38px;
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 24px;
+}
+
+
+/* minimain fix */
+
+.textqne {
+    font-family: 'Sunflower', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 314px;
+}
+
+.texttwo {
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 314px;
+}
+
+input[type="number"],
+input[type="text"]:focus {
+    color: black;
+    background-color: white;
+}
+
+.containertwo {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 27px;
+}
+
+.do {
+    margin: auto;
+}
+
+
+/* mobile */
+
+@media only screen and (max-width: 739px) {}
+
+
+/* tablet */
+
+@media only screen and (min-width: 740px) and (max-width:1023px) {
+    /* header */
+    .body {
+        display: block;
+        margin: 0px;
+    }
+    .container {
+        display: block;
+        width: 100%;
+    }
+    .left {
+        width: 100%;
+        box-shadow: 0px 0px 2x;
+        float: none;
+        padding-block: 0px;
+    }
+    .right {
+        background-color: white;
+        float: none;
+        padding-block: 0px;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: center;
+        background: #FFFFFF;
+        font-family: 'Sunflower', sans-serif;
+        box-shadow: 0px 4px 4px;
+    }
+    /* heromain */
+    .heromain {
+        width: 100%;
+        background-image: url("backgroundroom.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: block;
+    }
+    .inbackground {
+        padding-top: 0px;
+        font-family: 'Sunflower', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    .freequote {
+        font-family: 'Sunflower', sans-serif;
+        display: grid;
+        background-color: white;
+        text-align: center;
+        padding: 50px 50px;
+        padding-inline-end: 36px;
+        font-family: 'Nunito', sans-serif;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .login {
+        width: 100%;
+        display: grid;
+        background-color: white;
+        text-align: center;
+        padding: 50px 50px;
+        margin-top: 60px;
+        padding-inline-start: 36px;
+        padding-inline-end: 36px;
+        font-family: 'Nunito', sans-serif;
+        box-sizing: border-box;
+    }
+    .enter {
+        font-family: 'Nunito', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 22px;
+        margin-top: -30px;
+    }
+    .minimain photo {
+        text-align: left;
+        width: 362px;
+    }
+    .submit {
+        color: red;
+    }
+    input[type="number"],
+    input[type="text"] {
+        color: white;
+        width: 379px;
+        height: 44px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background: #E9E9EA;
+        border: 1px solid #D0D0D2;
+        ;
+    }
+    /* minimain */
+    .minimain {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+    .togiay {
+        height: auto;
+        text-align: left;
+        margin: auto;
+        font-size: 17px;
+        line-height: 18px;
+        width: 100%;
+        display: flex;
+    }
+    .Clock {
+        height: auto;
+        margin: auto;
+        text-align: left;
+        font-size: 17px;
+        line-height: 18px;
+        width: 100%;
+        display: flex;
+    }
+    .batogiay {
+        height: auto;
+        margin: auto;
+        text-align: left;
+        font-size: 17px;
+        line-height: 18px;
+        width: 100%;
+        display: flex;
+    }
+    .textqne {
+        font-family: 'Sunflower', sans-serif;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 100%;
+    }
+    .texttwo {
+        font-family: 'Nunito', sans-serif;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 100%;
+    }
+    .fixtextinminimain {
+        display: inline-block;
+        margin: auto;
+        margin-left: 9%;
+    }
+    .imgcontent {
+        width: 15%;
+        height: auto;
+        margin: auto;
+    }
+    .seexamples {
+        width: 100%;
+    }
+    .textinsee {
+        margin: auto;
+        font-size: 42px;
+        line-height: 42px;
+        font-family: 'Sunflower', sans-serif;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .containertwo {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        margin-top: 27px;
+        overflow: hidden;
+    }
+    /* footer */
+    .box {
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+    }
+    h1.textinfooter {
+        font-size: 14px;
+        text-align: center;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 19px;
+        color: gray;
+        font-family: 'Nunito', sans-serif;
+    }
+    .link {
+        text-align: center;
+        margin: auto;
+        font-family: 'Nunito', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .logocuoi {
+        text-align: center;
+    }
+    h1.diachi {
+        text-align: center;
+        font-size: 18px;
+        line-height: 18px;
+        padding-block: 36px;
+    }
+    h1.diachi {
+        color: gray;
+        font-family: 'Nunito', sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+    .link a {
+        color: red;
+    }
+}
+
+
+/* dong footer */
