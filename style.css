@@ -177,15 +177,13 @@ h1.diachi {
     font-family: 'Nunito', sans-serif;
     box-sizing: border-box;
     margin-left: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .minimain photo {
     text-align: left;
     width: 362px;
-}
-
-.submit {
-    color: red;
 }
 
 input[type="number"],
@@ -287,9 +285,8 @@ input[type="text"] {
     display: block;
     justify-content: center;
     align-items: center;
-    padding: 3px 24px;
     color: white;
-    margin-top: 51px;
+    color: red;
 }
 
 .submit>A {
@@ -297,20 +294,22 @@ input[type="text"] {
     font-size: 17px;
     color: white;
     font-family: 'Sunflower', sans-serif;
-    display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 3px 24px;
     background-color: #EC1C38;
+    width: 387px;
+    height: 44px;
 }
 
 .motnut {
-    width: 387px;
-    height: 38px;
     margin: auto;
     box-sizing: border-box;
-    margin-top: 24px;
+}
+
+.motnut>input[name="Description"] {
+    width: 387px;
+    height: 90px
 }
 
 
@@ -341,7 +340,9 @@ input[type="text"] {
 input[type="number"],
 input[type="text"]:focus {
     color: black;
-    background-color: white;
+    background-color: E9E9EA;
+    ;
+    ;
 }
 
 .containertwo {
@@ -349,10 +350,11 @@ input[type="text"]:focus {
     margin: auto;
     display: flex;
     margin-top: 27px;
+    justify-content: center;
 }
 
 .do {
-    margin: auto;
+    padding: 20px;
 }
 
 
@@ -397,9 +399,10 @@ input[type="text"]:focus {
     .heromain {
         width: 100%;
         background-image: url("backgroundroom.png");
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         display: block;
+        height: auto;
     }
     .inbackground {
         padding-top: 0px;
@@ -412,6 +415,18 @@ input[type="text"]:focus {
         width: 100%;
         height: auto;
     }
+    .login {
+        width: 50%;
+        background-color: white;
+        text-align: center;
+        font-family: 'Nunito', sans-serif;
+        box-sizing: border-box;
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+        margin: auto;
+    }
     .freequote {
         font-family: 'Sunflower', sans-serif;
         display: grid;
@@ -422,18 +437,6 @@ input[type="text"]:focus {
         font-family: 'Nunito', sans-serif;
         box-sizing: border-box;
         width: 100%;
-    }
-    .login {
-        width: 100%;
-        display: grid;
-        background-color: white;
-        text-align: center;
-        padding: 50px 50px;
-        margin-top: 60px;
-        padding-inline-start: 36px;
-        padding-inline-end: 36px;
-        font-family: 'Nunito', sans-serif;
-        box-sizing: border-box;
     }
     .enter {
         font-family: 'Nunito', sans-serif;
@@ -449,6 +452,7 @@ input[type="text"]:focus {
     }
     .submit {
         color: red;
+        height: 44px;
     }
     input[type="number"],
     input[type="text"] {
