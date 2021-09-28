@@ -133,7 +133,7 @@ h1.diachi {
     height: 986px;
     width: 100%;
     background-image: url("backgroundroom.png");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
 }
@@ -179,6 +179,12 @@ h1.diachi {
     margin-left: auto;
     display: flex;
     flex-direction: column;
+}
+
+.contentinlogin {
+    height: 623px;
+    width: 85%;
+    margin: auto;
 }
 
 .minimain photo {
@@ -266,7 +272,6 @@ input[type="text"] {
     width: 190px;
     height: 38px;
     box-sizing: border-box;
-    margin-left: 37px;
     margin-top: 24px;
 }
 
@@ -277,7 +282,6 @@ input[type="text"] {
 }
 
 .hainut>input:last-child {
-    width: 190px;
     height: 38px;
 }
 
@@ -285,8 +289,8 @@ input[type="text"] {
     display: block;
     justify-content: center;
     align-items: center;
-    color: white;
     color: red;
+    margin-top: 24px;
 }
 
 .submit>A {
@@ -305,10 +309,10 @@ input[type="text"] {
 .motnut {
     margin: auto;
     box-sizing: border-box;
+    margin-top: 24px;
 }
 
 .motnut>input[name="Description"] {
-    width: 387px;
     height: 90px
 }
 
@@ -425,6 +429,7 @@ input[type="text"]:focus {
         display: flex;
         flex-direction: column;
         margin-top: 5%;
+        height: 561px;
         margin: auto;
     }
     .freequote {
@@ -452,7 +457,6 @@ input[type="text"]:focus {
     }
     .submit {
         color: red;
-        height: 44px;
     }
     input[type="number"],
     input[type="text"] {
